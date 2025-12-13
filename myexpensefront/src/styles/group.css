@@ -1,0 +1,70 @@
+/* Minimalist tea website inspired styling – keeping Bootstrap layout intact */
+
+:root {
+  --primary-bg: #f5f3ee; /* warm beige */
+  --accent: #3a5a40; /* deep earthy green */
+  --accent-light: #a3b18a;
+  --text-dark: #2d2d2d;
+  --card-bg: #ffffff;
+}
+
+body {
+  background-color: var(--primary-bg) !important;
+  color: var(--text-dark);
+  font-family: "Poppins", sans-serif;
+}
+
+.card-custom {
+  background: var(--card-bg);
+  border-radius: 20px;
+  padding: 20px;
+  border: none;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.card-custom:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+
+.btn-accent {
+  background-color: var(--accent);
+  color: #fff;
+  border-radius: 10px;
+  padding: 8px 18px;
+  font-weight: 500;
+}
+
+.btn-accent:hover {
+  background-color: var(--accent-light);
+  color: #fff;
+}
+
+.chart-container {
+  background: var(--card-bg);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.table thead {
+  background-color: var(--accent);
+  color: #fff;
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover {
+  color: var(--accent-light);
+}
