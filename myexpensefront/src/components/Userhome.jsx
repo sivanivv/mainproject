@@ -267,6 +267,51 @@ const UserHome = () => {
           >
             Manage Recurring
           </a>
+           <a
+            href="/filter"
+            className="btn btn-outline-dark px-4 py-2 rounded-pill"
+            style={{
+              borderColor: "#CBBE9A",
+              color: "#7B6545",
+              fontWeight: "600",
+            }}
+          >
+            Track
+          </a>
+           <a
+            href="/groupmanage"
+            className="btn btn-outline-dark px-4 py-2 rounded-pill"
+            style={{
+              borderColor: "#CBBE9A",
+              color: "#7B6545",
+              fontWeight: "600",
+            }}
+          >
+            Split
+          </a>
+           <a
+            href="/notifications"
+            className="btn btn-outline-dark px-4 py-2 rounded-pill"
+            style={{
+              borderColor: "#CBBE9A",
+              color: "#7B6545",
+              fontWeight: "600",
+            }}
+          >
+            Notifications
+          </a>
+          <button
+                onClick={handleLogout}
+                className="btn btn-outline-secondary px-3 py-1 fw-semibold"
+                style={{
+                  borderColor: "#CBBE9A",
+                  color: "#7B6545",
+                  borderRadius: "25px",
+                }}
+              >
+                Logout
+              </button>
+
         </div>
       </div>
 

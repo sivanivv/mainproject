@@ -399,7 +399,7 @@ const UserExpenses = () => {
                     fontWeight: "600",
                   }}
                 >
-                  {editingId ? "💾" : "➕"}
+                  {editingId ? "Save" : "Add"}
                 </button>
               </div>
             </div>
